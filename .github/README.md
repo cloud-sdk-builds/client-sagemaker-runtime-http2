@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-sagemaker-runtime-http2`](https://www.npmjs.com/package/@aws-sdk/client-sagemaker-runtime-http2/v/3.1105.0).
+[`@aws-sdk/client-sagemaker-runtime-http2`](https://www.npmjs.com/package/@aws-sdk/client-sagemaker-runtime-http2/v/3.1106.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-sagemaker-runtime-http2 - [https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-runtime-http2](https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-runtime-http2)
-- @aws-sdk/client-sagemaker-runtime-http2 v3.1105.0 - [https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-runtime-http2&version=3.1105.0](https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-runtime-http2&version=3.1105.0)
+- @aws-sdk/client-sagemaker-runtime-http2 v3.1106.0 - [https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-runtime-http2&version=3.1106.0](https://cloud-sdk-builds.github.io/?sdk=client-sagemaker-runtime-http2&version=3.1106.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1105.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1106.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-0c0c621IVszHN7IW7VyfcR1B1t6DBZRQjAcHKR/YdL3bhBRg9Bh9W5+NAGN5qxwg
+sha384-EPJkOGBkOGZlqdyFxZKzeVXfplEhFeHVBm/rXPEDR7E996Y5Y/Thq2LHV0N2pWl3
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-sagemaker-runtime-http2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1105.0/index.min.mjs"
+            "@aws-sdk/client-sagemaker-runtime-http2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1106.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1105.0/index.min.mjs": "sha384-0c0c621IVszHN7IW7VyfcR1B1t6DBZRQjAcHKR/YdL3bhBRg9Bh9W5+NAGN5qxwg"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1106.0/index.min.mjs": "sha384-EPJkOGBkOGZlqdyFxZKzeVXfplEhFeHVBm/rXPEDR7E996Y5Y/Thq2LHV0N2pWl3"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-sagemaker-runtime-http2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1105.0/index.min.mjs"
+                        "@aws-sdk/client-sagemaker-runtime-http2": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1106.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1105.0/index.min.mjs": "sha384-0c0c621IVszHN7IW7VyfcR1B1t6DBZRQjAcHKR/YdL3bhBRg9Bh9W5+NAGN5qxwg"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-sagemaker-runtime-http2@3.1106.0/index.min.mjs": "sha384-EPJkOGBkOGZlqdyFxZKzeVXfplEhFeHVBm/rXPEDR7E996Y5Y/Thq2LHV0N2pWl3"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1105.0`)
+* Always pin to a specific version (`@3.1106.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-sagemaker-runtime-http2/blob/refs/tags/3.1105.0/LICENSE
+https://github.com/cloud-sdk-builds/client-sagemaker-runtime-http2/blob/refs/tags/3.1106.0/LICENSE
 ```
 
 ---
